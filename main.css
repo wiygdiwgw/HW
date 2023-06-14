@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#myForm {
+  width: 500px;
+  height: 300px;
+
+  border: 2px solid black;
+  border-radius: 30px;
+  background-color: aqua;
+
+  position: relative;
+  margin-top: 20%;
+  margin-left: 50%;
+  left: -250px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#name {
+  width: 300px;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 20%;
+}
+
+#number {
+  width: 300px;
+  height: 30px;
+  margin-top: -40px;
+  margin-left: 20%;
+}
+
+#password {
+  width: 300px;
+  height: 30px;
+  margin-top: -50px;
+  margin-left: 20%;
+}
+
+#password2 {
+  width: 300px;
+  height: 30px;
+  margin-top: -60px;
+  margin-left: 20%;
+}
+
+#submitButton {
+  width: 300px;
+  height: 30px;
+  margin-top: -60px;
+  margin-left: 20%;
+
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(79, 252, 79);
+}
+
+#loadButton {
+  position: absolute;
+
+  width: 140px;
+  height: 30px;
+
+  border: none;
+  border-radius: 30px;
+
+  left: 468px;
+  top: 485px;
+
+  background-color: rgb(255, 255, 0);
+}
+
+#clearButton {
+  position: absolute;
+
+  width: 140px;
+  height: 30px;
+
+  border: none;
+  border-radius: 30px;
+
+  top: 485px;
+
+  left: 626px;
+
+  background-color: rgb(255, 1, 1);
+}
